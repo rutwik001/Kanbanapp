@@ -133,7 +133,7 @@ function App() {
 
          <h4>
          {priorityMappings[priorityLabels[groupKey]] || statusMappings[groupKey]}{' '}
-          {priorityLabels[groupKey] || groupKey}{' '}[{groupedData[groupKey].length}]{' ✚...'}
+          {priorityLabels[groupKey] || groupKey}{' '}[{groupedData[groupKey].length}]{' '}{' ✚...'}
          </h4>
 
         {groupedData[groupKey].map((item) => (
@@ -143,12 +143,12 @@ function App() {
             <div class="card-body">
             <h5 class="card-title" >{item.id}</h5>
             <h2 class="card-subtitle mb-2 " >{item.title}</h2>
-            <p className="card-text text-muted" style={{ fontSize: "0.82rem"}}>🛞 {item.tag}</p>
+            <p className="card-text text-muted" style={{ fontSize: "0.82rem"}}>⚫ {item.tag}</p>
             <h2 className="card-text text-muted">{item.status}</h2>
                
             </div>
             <div class="col-md-2">
-                <img src="../images/images.jpg" class="img-fluid rounded-start" style={{ margin: "0.8rem" }} alt=".."/>
+                <img src="../images/images.jpg" class="img-fluid rounded" style={{ margin: "0.8rem" }} alt=".."/>
             </div>
           </div>
       </div>
