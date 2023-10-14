@@ -142,7 +142,7 @@ function App() {
               <div class="col-md-10">
             <div class="card-body">
             <h5 class="card-title" >{item.id}</h5>
-            <h2 class="card-subtitle mb-2 " >⚪ {item.title}</h2>
+            <h2 class="card-subtitle mb-2 " >{item.title}</h2>
             <p className="card-text text-muted" style={{ fontSize: "0.82rem"}}>🛞 {item.tag}</p>
             <h2 className="card-text text-muted">{item.status}</h2>
                
