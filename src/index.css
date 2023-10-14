@@ -11,6 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.navbar{
+  background-color: white;
+  box-shadow: 3px 2px 2px rgb(222, 220, 220);
+}
 
 h1{
   color: rgb(125, 4, 88);
@@ -28,32 +32,30 @@ h3{
   font-size: 1rem;
 }
 h4{
-  color: rgb(76, 75, 75);
+  color: rgb(11, 10, 10);
   font-size: 1rem;
   margin-top: 2rem;
 }
 h5{
   font-size: 1rem;
-  font-weight: 600;
-  color: black;
+  color: rgb(74, 74, 74);
 }
 p{
   border-color: black;
   margin-top: 1rem 0;
 }
 img{
-  border-radius: 1rem;
-  width: 2rem;
+  width: 1.5rem;
   height:2rem;
 }
 
 .display{
-  background: #faf8f5;
+  background: #f7fafb;
 }
 
 .card{
   margin: 1.5rem 0;
-  border-radius: 0.8rem;
-  background:radial-gradient(rgba(17, 1, 1, 0.007),rgb(5, 4, 3,0.01)) ;
-  box-shadow: 5px 10px 10px #9e9d9d;
+  border-radius: 0.3rem;
+  background:white ;
+  box-shadow: 3px 2px 10px rgb(156, 155, 155);
 }
